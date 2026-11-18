@@ -1,0 +1,52 @@
+# --- ENVIRONMENT & SECRETS ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# --- DEPENDENCIES ---
+node_modules/
+jspm_packages/
+venv/
+env/
+ENV/
+.venv/
+target/
+build/
+bin/
+
+# --- BUILD & COMPILED OUTPUT ---
+dist/
+out/
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
+*.exe
+*.dll
+
+# --- DATABASES & STORAGE ---
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+storage/
+*.log
+logs/
+
+# --- IDE & EDITOR FILES ---
+.vscode/
+.idea/
+*.suo
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# --- TESTING & COVERAGE ---
+coverage/
+.nyc_output/
+.pytest_cache/
